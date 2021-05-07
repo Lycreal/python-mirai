@@ -31,7 +31,6 @@ class MessageChain(BaseModel):
                 result.append(MessageComponents[i['type']].parse_obj(i))
             except:
                 Protocol.error(f"error throwed by message serialization: {i['type']}, it's {i}")
-                raise
         return cls(__root__=result)
 
     def __iter__(self):

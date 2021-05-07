@@ -13,7 +13,9 @@ pip install kuriyama
 
 由于 `python-mirai` 依赖于 `mirai` 提供的 `mirai-http-api` 插件, 所以你需要先运行一个 `mirai-core` 或是 `mirai-console` 实例以支撑你的应用运行.
 
-现有的文档地址: https://mirai-py.originpages.com/
+~~原文档地址（已废弃）: https://mirai-py.originpages.com/~~
+
+现有的文档地址: https://natriumlab.github.io/
 
 ### 加入开发
 `python-mirai` 项目欢迎一切形式上的贡献(包括但不限于 `Issues`, `Pull Requests`, `Good Idea` 等)  
